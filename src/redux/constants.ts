@@ -1,0 +1,9 @@
+export const ADD_TASK = "ADD_TASK";
+export const UPDATE_TASK = "UPDATE_TASK";
+export const DELETE_TASK = "DELETE_TASK";
+export const ADD_COLUMN = "ADD_COLUMN";
+export const UPDATE_COLUMN = "UPDATE_COLUMN";
+export const DELETE_COLUMN = "DELETE_COLUMN";
+export const ADD_BOARD = "ADD_BOARD";
+export const UPDATE_BOARD = "UPDATE_BOARD";
+export const DELETE_BOARD = "DELETE_BOARD";

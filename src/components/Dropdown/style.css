@@ -1,0 +1,4 @@
+.custom-dropdown {background: var(--bg-primary);min-width: 140px;border-radius: 4px;position: absolute;right: -10px;top: 38px;color: var(--gray);font-weight: 600;height: 0;overflow: hidden;transition: height 0.4s;}
+.custom-dropdown .option {padding: 6px;cursor: pointer;transition: 0.4s;}
+.custom-dropdown.collapsed {height: 70px;}
+.custom-dropdown .option:hover {background: var(--bg-button-secondary);}

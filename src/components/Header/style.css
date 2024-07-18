@@ -1,0 +1,28 @@
+.header{
+  display: flex;
+  background: var(--bg-secondary);
+}
+
+.header-side {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex: 1;
+  padding: 20px 33px;
+}
+
+.header .logo {
+  border-right: 1px solid var(--bg-button-secondary);
+  padding: 34px 33px;
+}
+
+.header .buttons-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.dots-button {padding: 10px;}
+
+.header-side .board-name {transition: var(--transition);color: var(--text-primary);}
